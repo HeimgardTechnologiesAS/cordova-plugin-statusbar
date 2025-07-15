@@ -270,6 +270,27 @@ Supported Platforms
 - iOS
 - Android
 
+StatusBar.height
+=================
+
+Call this function to get the height of the statusbar.
+
+    StatusBar.height(onSuccess, onError);
+
+    const onSuccess = (height) => {
+        // do something with the statusbar height here
+    }
+
+    const onError = (error) => {
+        // handle error state; should usually not ever activate
+    }
+    
+Supported Platforms
+-------------------
+
+- iOS
+- Android
+
 statusTap
 =========
 

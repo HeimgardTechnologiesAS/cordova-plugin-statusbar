@@ -74,6 +74,10 @@ var StatusBar = {
         exec(null, null, 'StatusBar', 'backgroundColorByHexString', [hexString]);
     },
 
+    height: function (onSuccess, onError) {
+        exec(onSuccess, onError, 'StatusBar', 'height', []);
+    },
+
     hide: function () {
         exec(null, null, 'StatusBar', 'hide', []);
         StatusBar.isVisible = false;
